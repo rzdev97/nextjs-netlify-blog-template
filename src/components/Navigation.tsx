@@ -39,8 +39,8 @@ export default function Navigation() {
               height: 100vh;
               text-align: right;
               list-style: none;
-              margin: 5em;
-              padding: 0;
+              margin: 0;
+              padding: 2em;
               position: fixed;
               top: 0;
               background-color: #0B090A;
