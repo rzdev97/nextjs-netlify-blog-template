@@ -17,17 +17,17 @@ export default function Navigation() {
             </Link>
           </li>
              <li>
-            <Link href="/">
+            <Link href="/about.tsx">
               <a className={router.pathname === "/" ? "active" : null}>About</a>
             </Link>
           </li>
              <li>
-            <Link href="/">
+            <Link href="/projects.tsx">
               <a className={router.pathname === "/" ? "active" : null}>Projects</a>
             </Link>
           </li>
              <li>
-            <Link href="/">
+            <Link href="/contact.tsx">
               <a className={router.pathname === "/" ? "active" : null}>Contact</a>
             </Link>
           </li>
@@ -53,7 +53,7 @@ export default function Navigation() {
               width: 100%;
               height: 100vh;
               text-align: right;
-              list-style: none;
+              list-style-type: none;
               margin: 0;
               padding: 2em;
               position: fixed;
@@ -74,6 +74,8 @@ export default function Navigation() {
               margin-bottom: 1.75rem;
               font-size: 2rem;
               padding: 0 1.5rem 0 0;
+              display:block;
+              text-decoration:none;
             }
             li:last-child {
               margin-bottom: 0;
