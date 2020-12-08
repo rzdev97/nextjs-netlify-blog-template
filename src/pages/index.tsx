@@ -27,7 +27,7 @@ export default function Index() {
           justify-content: center;
           flex: 1 1 auto;
           padding: 0 1.5rem;
-          background-color: #0B090A;
+          background-color: #F5F3F4;
         }
         h1 {
           font-size: 2.5rem;
