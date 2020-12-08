@@ -39,7 +39,7 @@ export default function Navigation() {
               height: 100vh;
               text-align: right;
               list-style: none;
-              margin: 0;
+              margin: 5em;
               padding: 0;
               position: fixed;
               top: 0;
