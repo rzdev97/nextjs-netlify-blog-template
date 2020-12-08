@@ -15,7 +15,7 @@ export default function Index() {
           <h1>
             Hi,I am R.Zorzi<span className="fancy">.</span>
           </h1>
-          <span className="handle">@nextjs-netlify-blog</span>
+          <span className="handle">@rzdev97</span>
           <h2>This is my Developer Portfolio</h2>
           <SocialList />
         </div>
@@ -27,6 +27,7 @@ export default function Index() {
           justify-content: center;
           flex: 1 1 auto;
           padding: 0 1.5rem;
+          background-color: #161A1D;
         }
         h1 {
           font-size: 2.5rem;
