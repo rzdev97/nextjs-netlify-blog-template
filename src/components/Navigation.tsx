@@ -44,7 +44,7 @@ export default function Navigation() {
               position: fixed;
               top: 0;
               background-color: #0B090A;
-              display: flex;
+              display: inline;
               flex-direction: column;
               justify-content: center;
               z-index: 1;
